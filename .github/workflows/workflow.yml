@@ -17,10 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Configure Git user
-        run: |
-          git config --global user.email "github-actions"
-          git config --global user.name "actions@github.com"
 
       - name: Install dependencies
         run: |
